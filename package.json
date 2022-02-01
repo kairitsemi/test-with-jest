@@ -1,0 +1,26 @@
+{
+  "name": "testwithjest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "babel-jest": "^27.4.4",
+    "jest": "^27.4.4",
+    "react-test-renderer": "^17.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
